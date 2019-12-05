@@ -501,9 +501,10 @@ h4 {
 }
 
 .button-box button {
-    border: 1px solid var(--mediumBlue);
+    border: 1px solid var(--mediumDarkBlue);
     padding-left: 15px;
     padding-right: 15px;
+    margin: 2px;
 }
 
 .button-box a {
@@ -529,62 +530,11 @@ h4 {
     width: 90%;
 }
 
-.contact-section {
-    margin: 20px 0;
-    background-color: var(--pink);
-    border-radius: 20px;
+.bio-plus-contact {
+    display: flex;
+    justify-content: space-between;
 }
 
-.contact-section>div {
-    display: block;
-    width: 300px;
-    margin: 100px auto;
-}
-
-.contact-section p {
-    width: 275px;
-}
-
-@media screen and (max-width: 775px) {
-    .contact-section p {
-        width: 100%;
-    }
-}
-
-#email {
-    padding-bottom: 20px;
-}
-
-#thanks {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 25px;
-    font-weight: 500;
-    font-style: italic;
-    letter-spacing: 1px;
-    text-transform: none;
-    text-align: right;
-}
-
-@media screen and (max-width: 1000px) and (min-width: 775px) {
-    #thanks {
-        text-align: left;
-    }
-}
-
-@media screen and (max-width: 775px) {
-    #thanks {
-        text-align: center;
-    }
-}
-
-footer {
-    padding: 150px 0 25px 0;
-    display: block;
-    width: 100%;
-}
-
-@media screen and (min-width: 1200px) {
-    footer {
-        padding: 100px 0 25px 0;
-    }
+#contact-section {
+    margin-right: 90px;
 }
