@@ -445,7 +445,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 930px) {
     .project-preview {
         width: 49%;
         flex-grow: 1;
@@ -478,6 +478,16 @@ h4 {
 
 .header {
     position: relative;
+}
+
+@media screen and (max-width: 500px) {
+    .header>h2 {
+        margin-top: 15px;
+    }
+    .header>p {
+        margin-top: -15px;
+        margin-right: -10px;
+    }
 }
 
 .date {
@@ -547,6 +557,7 @@ h4 {
 .bio-plus-contact {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 #contact-section {
